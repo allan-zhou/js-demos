@@ -13,9 +13,9 @@ console.log(o1);  // { a: 1, b: 2, c: 3 }, 注意目标对象自身也会改变�
 
 var obj2 = Object.assign([], o2, o3);
 console.log(obj2);
-console.log(typeof obj2);
-console.log(Array.isArray(obj2));
+// console.log(typeof obj2);
+// console.log(Array.isArray(obj2));
+// console.log(obj2.length);
 
-let arr = [];
-console.log(typeof arr);
-console.log(Array.isArray(arr));
+
+

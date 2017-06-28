@@ -5,4 +5,7 @@
 - demo04：表达式和运算符
 - demo05: JSON
 - demo06: Object
+- demo07: Function 函数
+- demo08: Generator 函数
+- demo09：Promise 对象
 - mix: 杂项
