@@ -8,4 +8,5 @@
 - demo07: Function 函数
 - demo08: Generator 函数
 - demo09：Promise 对象
+- demo09：Symbol 对象
 - mix: 杂项

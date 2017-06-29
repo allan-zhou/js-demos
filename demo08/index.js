@@ -1,14 +1,17 @@
-function* gen() { 
-  yield 1;
-  yield 2;
-  yield 3;
+function* G() {
+    const a = yield 100
+    console.log('a', a)  // a aaa
+    const b = yield 200
+    console.log('b', b)  // b bbb
+    const c = yield 300;
+    console.log('c', c)  // c ccc
 }
+const g = G()
+// console.log(g.next());      // { value: 100, done: false }
+// console.log(g.next('aaa')); // { value: 200, done: false }
+// console.log((g.next('bbb').value)(1)); // { value: 300, done: false }
+// console.log(g.next('ccc')); // { value: undefined, done: true }
 
-let g = gen(); 
-// "Generator { }"
-console.log(typeof g); 
-console.log(g.next());
-console.log(g.next());
-console.log(g.return('hello')); //直接返回
-console.log(g.next());
-console.log(g.next());
+for(val of g){
+  console.log(val);
+}
