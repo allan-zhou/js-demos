@@ -1,1 +1,1 @@
-let fun = () => console.log('babel')
+const fun = () => console.log('babel');

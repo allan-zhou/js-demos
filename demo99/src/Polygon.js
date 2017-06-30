@@ -1,11 +1,11 @@
-class Polygon {  
+class Polygon {
   constructor(height, width) {
     this.height = height;
     this.width = width;
   }
 
   get area() {
-    return this.calcArea()
+    return this.calcArea();
   }
 
   calcArea() {
