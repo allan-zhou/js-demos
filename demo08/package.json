@@ -1,0 +1,14 @@
+{
+  "name": "demo08",
+  "version": "1.0.0",
+  "description": "生成器对象是由一个 `generator function` 返回的,并且它符合**可迭代协议**和**迭代器协议**。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "popzhou",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0"
+  }
+}

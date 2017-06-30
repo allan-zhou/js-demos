@@ -7,11 +7,11 @@ function* G() {
     console.log('c', c)  // c ccc
 }
 const g = G()
-// console.log(g.next());      // { value: 100, done: false }
-// console.log(g.next('aaa')); // { value: 200, done: false }
-// console.log((g.next('bbb').value)(1)); // { value: 300, done: false }
-// console.log(g.next('ccc')); // { value: undefined, done: true }
+console.log(g.next());      // { value: 100, done: false }
+console.log(g.next('aaa')); // { value: 200, done: false }
+console.log((g.next('bbb').value)(1)); // { value: 300, done: false }
+console.log(g.next('ccc')); // { value: undefined, done: true }
 
-for(val of g){
-  console.log(val);
-}
+// for(val of g){
+//   console.log(val);
+// }
